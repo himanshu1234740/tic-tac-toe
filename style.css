@@ -9,35 +9,34 @@ body {
 
 .cont {
     text-align: center;
-    box-shadow: 4px 3px 8px gray;
+    box-shadow: 1px 1px 8px gray;
     height: 400px;
-    width: 350px;
+    width: 27%;
     border-radius: 20px;
-    position: absolute;
-    left: 450px;
-    top: 100px;
+    
+    margin-left: 36.5%;
+    margin-top: 100px;
 
     background-image: linear-gradient(to left, rgb(239, 239, 108), rgb(251, 164, 178))
 }
 
 .main {
     text-align: center;
-
     height: 300px;
-    width: 300px;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: absolute;
-    left: 55px;
+    
+    margin-left: 13%;
 }
 
 .item {
     text-align: center;
     margin: 12px;
     background-image: linear-gradient(to bottom right, skyblue, pink);
-    box-shadow: 4px 3px 8px gray;
-    width: 60px;
+    box-shadow: 1px 1px 8px gray;
+    width: 22%;
     height: 60px;
     border-radius: 10px;
     cursor: pointer;
@@ -50,53 +49,44 @@ body {
     height: 40px;
     width: 200px;
     border-radius: 10px;
+    margin-left: 1rem;
     background-image: linear-gradient(to bottom right, rgb(255, 255, 144), pink);
+    
+}
+#tic{
+    margin-top: 6.5px;
 }
 
-#tic {
-    position: absolute;
-    top: 5px;
-    right: 130px;
-}
-
-#alert {
-    visibility: hidden;
-    height: 80px;
-    width: 98.3%;
-    text-align: center;
-    background-color: rgb(102, 236, 102);
-    box-shadow: 4px 3px 8px gray;
-    border-radius: 15px;
-    position: absolute;
-    top: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-
-}
-
+/* 
 @media only screen and (max-width: 850px) {
     .cont {
-        position: absolute;
-        left: 240px;
+        
+        margin-left: 240px;
     }
-}
+} */
 
 @media only screen and (max-width: 450px) {
     .cont {
         height: 370px;
-        width: 300px;
-        position: absolute;
-        left: 41px;
+        width: 80%;
+        
+        margin-left: 10%;
+        
     }
     .main {
         text-align: center;
-        position: absolute;
-        left: 25px;
+        margin-left: 13%;
+    
+        width: 80%;
+        
+        
       }
-      #tic {
-        position: absolute;
-        top: 5px;
-        right: 106px;
+      
+        
+    .item{
+        margin-left: 4%;
+        
+        text-align: center;
       }
 }
         
