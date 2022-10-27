@@ -13,12 +13,12 @@ function input(num) {
             if (input.innerHTML === "") {
                 if (count % 2 === 0) {
                     input.innerHTML = "X";
-                    new Audio("sound.wav").play();
+                    
                     arr[index] = input.innerHTML;
                     count = count + 1;
                 } else {
                     input.innerHTML = "O";
-                    new Audio("sound.wav").play();
+                    
                     arr[index] = input.innerHTML;
                     count = count + 1;
                 }
